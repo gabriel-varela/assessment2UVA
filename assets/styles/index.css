@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Croissant+One&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.Navbar {
+  background: #212529;
+  display: flex;
+  padding: 0px;
+  font-family: sans-serif;
+  gap: 5rem;
+  justify-content: space-around;
+  color: #fff;
+  align-items: center;
+}
+
+.Navbar img {
+  width: 100px;
+  height: 100px;
+}
+
+.Navbar__Items > .Navbar__Link {
+  margin: 0px 20px;
+  padding: 4px;
+}
+
+.Navbar__Items > .Navbar__Link:hover {
+  background: rgba(82, 82, 82, 0.75);
+  border-radius: 10px;
+  padding: 2px;
+  border: 2px solid #ff00e6;
+}
+
+.Link_Element-1 {
+  background: linear-gradient(90deg, #ff00e6 0%, #fff500 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Link_Element-2 {
+  background: linear-gradient(90deg, #fff500 0%, #fff859 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Link_Element-3 {
+  background: linear-gradient(90deg, #fff859 0%, #fff500 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Link_Element-4 {
+  background: linear-gradient(90deg, #fff500 0%, #ff00e6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logotype {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Croissant One";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -2.56px;
+}
+
+.Navbar__Items {
+  display: flex;
+}
+
+.Navbar__Items a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  padding: 10px 10px;
+}
+
+.Navbar__Items--right {
+  margin-left: auto;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+main {
+  min-height: 100vh;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background: #212529;
+  color: #fff;
+}
+
+footer > p {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 870px) {
+  .Navbar {
+    gap: 3rem;
+  }
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .Navbar__Items {
+    display: none;
+  }
+
+  .Navbar__Items--right {
+    margin-left: 0;
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+
+  .Navbar__Link-toggle {
+    align-self: flex-end;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+    margin: 35px;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .Navbar__Items .Navbar__Link a {
+    font-size: 16px;
+  }
+
+  .logotype {
+    font-size: 24px;
+  }
+
+  .logotype img {
+    width: 50px;
+    height: 50px;
+  }
+}
