@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Croissant+One&family=Roboto&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,6 +12,11 @@ body {
   background: #000;
   font-family: Arial, sans-serif;
   min-height: 100vh;
+}
+
+header {
+  border-bottom: 2px solid #616161;
+  width: 100%;
 }
 
 .Navbar {
@@ -40,6 +45,10 @@ body {
   border-radius: 10px;
   padding: 2px;
   border: 2px solid #ff00e6;
+}
+
+.Navbar__Link a {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .Link_Element-1 {
@@ -81,6 +90,7 @@ body {
   font-weight: 400;
   line-height: normal;
   letter-spacing: -2.56px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 .Navbar__Items {
@@ -109,6 +119,7 @@ main {
 }
 
 footer {
+  border-top: 2px solid #616161;
   display: flex;
   align-items: center;
   height: 60px;
@@ -118,6 +129,102 @@ footer {
 
 footer > p {
   margin: 0 auto;
+}
+
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main form {
+  font-family: "Roboto", sans-serif;
+  background: #212529;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  height: 750px;
+  border-radius: 15px;
+  color: #fff;
+  gap: 25px;
+  position: absolute;
+  /**/
+  backdrop-filter: blur(70px);
+  -webkit-backdrop-filter: blur(70px);
+}
+
+.background {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  height: 750px;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    #fff500 0deg,
+    #ff7a00 125.99999785423279deg,
+    #ff00e6 244.80000257492065deg,
+    #ad00ff 360deg
+  );
+  filter: blur(110px);
+  z-index: -1;
+}
+
+main form input::placeholder,
+textarea::placeholder {
+  color: #bbbbbb;
+}
+
+main form input:hover,
+textarea:hover {
+  border-radius: 5px;
+  background: rgba(82, 82, 82, 0.75);
+}
+
+main form input[type="submit"]:hover {
+  background: #ff00e6;
+  box-shadow: 0px 0px 5px 2px #6e00a1;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+form input:not([type="submit"]) {
+  margin-top: 5px;
+  padding: 10px;
+  background: none;
+  outline: none;
+  border-style: none;
+  border-bottom: 1px solid #ffffff2f;
+}
+
+form input[type="submit"] {
+  background: #616161;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+textarea {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  margin-top: 5px;
+  background: none;
+  outline: none;
+  border-style: none;
+  border: 1px solid #ffffff2f;
+  border-radius: 10px;
+  resize: none;
 }
 
 @media only screen and (max-width: 870px) {
@@ -151,17 +258,47 @@ footer > p {
   }
 }
 
-@media only screen and (max-width: 1170px) {
-  .Navbar__Items .Navbar__Link a {
-    font-size: 16px;
+@media screen and (max-width: 1120px) {
+  .Navbar__Items a {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .Navbar__Items > .Navbar__Link {
+    margin: 0px 5px;
+    padding: 4px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  main form {
+    width: 450px;
+    height: 450px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .background {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  main form {
+    width: 250px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
   }
 
   .logotype {
     font-size: 24px;
+    margin-right: 30px;
   }
 
-  .logotype img {
-    width: 50px;
-    height: 50px;
+  .background {
+    width: 250px;
+    height: auto;
   }
 }

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="viewport" content="height=device-height, initial-scale=1.0">
   <link rel="stylesheet" href="assets/styles/index.css">
-  <link rel="shortcut icon" href="" type="image/png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/image/favicon-32x32.png">
   <script src="https://kit.fontawesome.com/6302ea1cad.js" crossorigin="anonymous"></script>
   <title>TechSprint Solutions</title>
 </head>
@@ -15,7 +15,7 @@
   <header>
     <div class="Navbar">
       <div class="Navbar__Link Navbar__Link-brand">
-        <a class="logotype" href="/assessment2UVA/index.php">
+        <a class="logotype" href="/assessment2UVA/">
           <img src="assets/image/LogoWithoutBG03.svg" alt="logo">
           TechSprint
         </a>
@@ -39,7 +39,6 @@
       </nav>
     </div>
   </header>
-
   <main>
 
   </main>
@@ -47,7 +46,6 @@
   <footer>
     <p>&copy; 2024 TechSprint</p>
   </footer>
-
   <script src="assets/js/script.js"></script>
 </body>
 
