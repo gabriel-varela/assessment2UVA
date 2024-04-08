@@ -173,6 +173,11 @@ main form {
   z-index: -1;
 }
 
+main form input,
+textarea {
+  color: #fff;
+}
+
 main form input::placeholder,
 textarea::placeholder {
   color: #bbbbbb;
@@ -184,6 +189,12 @@ textarea:hover {
   background: rgba(82, 82, 82, 0.75);
 }
 
+main form input:focus,
+textarea:focus {
+  border-radius: 5px;
+  background: rgba(53, 53, 53, 0.75);
+}
+
 main form input[type="submit"]:hover {
   background: #ff00e6;
   box-shadow: 0px 0px 5px 2px #6e00a1;
@@ -193,6 +204,26 @@ main form input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   gap: 1px;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+.social-medias i:hover {
+  background: rgba(82, 82, 82, 0.75);
+  border-radius: 10px;
+  padding: 2px;
+  border: 2px solid #ff00e6;
+}
+
+.social-medias i {
+  font-size: 30px;
+  color: #fff;
+  padding: 4px;
 }
 
 form input:not([type="submit"]) {
@@ -286,10 +317,10 @@ textarea {
 
 @media screen and (max-width: 520px) {
   main form {
-    width: 250px;
-    height: auto;
+    width: 320px;
+    height: 320px;
     padding: 20px;
-    margin: 0 auto;
+    margin: 0 2px;
   }
 
   .logotype {
@@ -299,6 +330,47 @@ textarea {
 
   .background {
     width: 250px;
-    height: auto;
+    height: 250px;
   }
+}
+
+.about-container {
+  gap: 50px;
+  padding: 50px;
+  background-image: url("../image/_76ac2d45-6500-4317-9742-e7fdf0f9d378.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  width: 1400px;
+  height: 550px;
+  background: linear-gradient(180deg, #0b0069 0%, #5900ff54 100%);
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 10px 10px #0000002f;
+  backdrop-filter: blur(70px);
+  text-align: center;
+  width: 520px;
+  height: auto;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.content h2 {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.content p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }

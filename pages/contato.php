@@ -63,6 +63,14 @@
             required></textarea>
         </div>
         <input type="submit" value="Enviar">
+        <div class="social-medias">
+          <a href=""><i class="fa-brands fa-github"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-solid fa-envelope"></i></a>
+        </div>
       </form>
     </section>
   </main>
