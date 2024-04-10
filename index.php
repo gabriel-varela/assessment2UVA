@@ -40,8 +40,15 @@
       </nav>
     </div>
   </header>
-  <main>
-
+  <main class="index-main">
+    <section>
+      <h1>O Futuro do Software: Inovando a cada código</h1>
+      <p>Nós desenvolvemos nosso software para que você possa aprender conosco</p>
+    </section>
+    <section>
+      <h1>Independente do seu conhecimento e da sua experiência</h1>
+      <p>Você sempre será bem-vindo em nossos projetos Open Source</p>
+    </section>
   </main>
 
   <footer>

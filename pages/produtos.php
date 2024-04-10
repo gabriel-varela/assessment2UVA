@@ -41,6 +41,50 @@
   </header>
 
   <main>
+    <section class="servicos">
+      <div class="item-servico">
+        <img src="https://placehold.co/450x250" alt="">
+        <h2>Exemplo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
+          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
+          deleniti fugiat quo accusantium!</p>
+      </div>
+      <div class="item-servico">
+        <img src="https://placehold.co/450x250" alt="">
+        <h2>Exemplo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
+          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
+          deleniti fugiat quo accusantium!</p>
+      </div>
+      <div class="item-servico">
+        <img src="https://placehold.co/450x250" alt="">
+        <h2>Exemplo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
+          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
+          deleniti fugiat quo accusantium!</p>
+      </div>
+      <div class="item-servico">
+        <img src="https://placehold.co/450x250" alt="">
+        <h2>Exemplo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
+          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
+          deleniti fugiat quo accusantium!</p>
+      </div>
+      <div class="item-servico">
+        <img src="https://placehold.co/450x250" alt="">
+        <h2>Exemplo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
+          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
+          deleniti fugiat quo accusantium!</p>
+      </div>
+      <div class="item-servico">
+        <img src="https://placehold.co/450x250" alt="">
+        <h2>Exemplo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
+          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
+          deleniti fugiat quo accusantium!</p>
+      </div>
+    </section>
 
   </main>
 

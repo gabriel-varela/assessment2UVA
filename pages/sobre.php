@@ -27,34 +27,42 @@
       </div>
       <nav class="Navbar__Items">
         <div class="Navbar__Link">
-          <a class="Link_Element-1" href="produtos.php">Produtos e Serviços</a>
+          <a href="produtos.php">Produtos e Serviços</a>
         </div>
         <div class="Navbar__Link">
-          <a class="Link_Element-2" href="novidades.php">Novidades</a>
+          <a href="novidades.php">Novidades</a>
         </div>
         <div class="Navbar__Link">
-          <a class="Link_Element-3" href="sobre.php">Sobre</a>
+          <a href="sobre.php">Sobre</a>
         </div>
         <div class="Navbar__Link">
-          <a class="Link_Element-4" href="contato.php">Contato</a>
+          <a href="contato.php">Contato</a>
         </div>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="about-container">
+  <main class="about-main">
+    <section class="about-section">
       <div class="block">
-
-        <div class="content">
-          <h2>Comunidade</h2>
-          <p>Nossa comunidade é formada por indivíduos comprometidos com o desenvolvimento de software, criando soluções
-            tecnológicas eficazes para resolver problemas complexos do dia a dia.</p>
-        </div>
-        <div class="content">
-          <h2>Quem somos</h2>
-          <p>Fundada em 2024, nossa missão é tornar o software acessível a todos. Atualmente, contamos com 5
-            colaboradores e estamos focados no desenvolvimento Open Source.</p>
+        <div class="content-box">
+          <div class="content">
+            <img src="../assets/image/_76ac2d45-6500-4317-9742-e7fdf0f9d378.jpg" alt="">
+            <div class="content-text">
+              <h2>Quem somos</h2>
+              <p>Fundada em 2024, nossa missão é tornar o software acessível a todos. Atualmente, estamos focados no
+                desenvolvimento Open Source.</p>
+            </div>
+          </div>
+          <div class="content">
+            <div class="content-text">
+              <h2>Comunidade</h2>
+              <p>Nossa comunidade é formada por indivíduos comprometidos com o desenvolvimento de software, criando
+                soluções
+                tecnológicas eficazes para resolver problemas complexos do dia a dia.</p>
+            </div>
+            <img src="../assets/image/_7381106f-c9f3-47cb-ae78-48812c6cd9af.jpg" alt="">
+          </div>
         </div>
       </div>
     </section>
