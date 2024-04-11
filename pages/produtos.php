@@ -41,55 +41,28 @@
   </header>
 
   <main>
-    <section class="servicos">
-      <div class="item-servico">
-        <img src="https://placehold.co/450x250" alt="">
-        <h2>Exemplo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
-          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
-          deleniti fugiat quo accusantium!</p>
-      </div>
-      <div class="item-servico">
-        <img src="https://placehold.co/450x250" alt="">
-        <h2>Exemplo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
-          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
-          deleniti fugiat quo accusantium!</p>
-      </div>
-      <div class="item-servico">
-        <img src="https://placehold.co/450x250" alt="">
-        <h2>Exemplo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
-          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
-          deleniti fugiat quo accusantium!</p>
-      </div>
-      <div class="item-servico">
-        <img src="https://placehold.co/450x250" alt="">
-        <h2>Exemplo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
-          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
-          deleniti fugiat quo accusantium!</p>
-      </div>
-      <div class="item-servico">
-        <img src="https://placehold.co/450x250" alt="">
-        <h2>Exemplo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
-          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
-          deleniti fugiat quo accusantium!</p>
-      </div>
-      <div class="item-servico">
-        <img src="https://placehold.co/450x250" alt="">
-        <h2>Exemplo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, rem magni! Eos, similique voluptates
-          obcaecati iusto reprehenderit, perspiciatis deserunt, accusantium magnam quas sit assumenda? Earum maiores
-          deleniti fugiat quo accusantium!</p>
-      </div>
-    </section>
+    <section class="produtos">
+      <?php
+      $conexao = new mysqli('localhost', 'root', '', 'empresa');
+      $consulta = $conexao->query("SELECT * FROM produtos");
+      $resultado = $consulta->fetch_all(MYSQLI_ASSOC);
+      foreach ($resultado as $produto)
+        echo ('<div class="item-produto">
+        <img src="../assets/scripts/imageprodutos.php?id=' . $produto['id_prod'] . '" alt="">
+        <h2>' . $produto['nome'] . '</h2>
+        <div class="info">
+        <h3>R$ ' . $produto['valor'] . '</h3>
+        <h3>Licenças disponíveis: ' . $produto['qtdestoque'] . '</h3>
+        </div>
+      </div>');
+      $conexao->close();
+      ?>
 
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2024 TechSprint</p>
+    <p>Copyright &copy; 2024 Tech Sprint Solutions Todos os direitos reservados.</p>
   </footer>
 
   <script src="assets/js/script.js"></script>

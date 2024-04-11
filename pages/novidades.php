@@ -40,15 +40,34 @@
     </div>
   </header>
 
-  <main>
+  <main class="novidades-main">
+    <section>
+      <div class="novidades">
+        <?php
+        $conexao = new mysqli('localhost', 'root', '', 'empresa');
+        $consulta = $conexao->query("SELECT * FROM novidades");
+        $resultado = $consulta->fetch_all(MYSQLI_ASSOC);
+        foreach ($resultado as $novidade)
+          echo ("<div class='item-novidades'>
+          <img src='../assets/scripts/imagenovidades.php?id=" . $novidade['id_nov'] . "' alt=''>
+           <div>
+              <h1>" . $novidade['resumo'] . "</h1>
+                <p>" . $novidade['descricao'] . "</p>
+            </div>
+        </div>");
+        $conexao->close();
+        ?>
+      </div>
+    </section>
+
 
   </main>
 
   <footer>
-    <p>&copy; 2024 TechSprint</p>
+    <p>Copyright &copy; 2024 Tech Sprint Solutions Todos os direitos reservados.</p>
   </footer>
 
-  <script src="assets/js/script.js"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 </html>
