@@ -50,8 +50,8 @@
             <img src="../assets/image/_76ac2d45-6500-4317-9742-e7fdf0f9d378.jpg" alt="">
             <div class="content-text">
               <h2>Quem somos</h2>
-              <p>Fundada em 2024, nossa missão é tornar o software acessível a todos. Atualmente, estamos focados no
-                desenvolvimento Open Source.</p>
+              <p>Somos uma empresa fundada em 2024, com o intuito de ajudar os estudantes da área de tecnologia a
+                enriquecerem seu portfólio com projetos open-source.</p>
             </div>
           </div>
           <div class="content">
