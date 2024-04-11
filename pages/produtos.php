@@ -65,7 +65,7 @@
     <p>Copyright &copy; 2024 Tech Sprint Solutions Todos os direitos reservados.</p>
   </footer>
 
-  <script src="assets/js/script.js"></script>
+  <script src="../assets/js/script.js"></script>
 </body>
 
 </html>

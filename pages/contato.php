@@ -59,7 +59,8 @@
         </div>
         <div class="input-group">
           <label for="message">Mensagem</label>
-          <textarea rows="3" cols="33" name="message" id="message" cols="30" rows="10" placeholder="Insira sua mensagem" required></textarea>
+          <textarea rows="3" cols="33" name="message" id="message" cols="30" rows="10" placeholder="Insira sua mensagem"
+            required></textarea>
         </div>
         <input type="submit" value="Enviar">
         <div class="social-medias">
