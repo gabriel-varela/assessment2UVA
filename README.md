@@ -45,7 +45,7 @@ Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para
 
 ## Direitos Acadêmicos
 
-Este projeto também está disponível para uso em contextos acadêmicos, como estudos, pesquisas e trabalhos acadêmicos. Você tem permissão para referenciar e utilizar partes do código-fonte para esses fins, desde que os devidos créditos sejam atribuídos ao autor do projeto, Eduardo Fernandes.
+Este projeto também está disponível para uso em contextos acadêmicos, como estudos, pesquisas e trabalhos acadêmicos. Você tem permissão para referenciar e utilizar partes do código-fonte para esses fins, desde que os devidos créditos sejam atribuídos aos autores do projeto.
 
 Para referenciar este projeto em trabalhos acadêmicos usando o estilo APA, você pode seguir o modelo abaixo:
 
