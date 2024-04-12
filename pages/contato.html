@@ -31,10 +31,10 @@
           <a class="Link_Element-2" href="novidades.php">Novidades</a>
         </div>
         <div class="Navbar__Link">
-          <a class="Link_Element-3" href="sobre.php">Sobre</a>
+          <a class="Link_Element-3" href="sobre.html">Sobre</a>
         </div>
         <div class="Navbar__Link">
-          <a class="Link_Element-4" href="contato.php">Contato</a>
+          <a class="Link_Element-4" href="contato.html">Contato</a>
         </div>
       </nav>
     </div>
