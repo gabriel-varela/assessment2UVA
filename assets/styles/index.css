@@ -531,7 +531,7 @@ h1 {
 
 .item-produto {
   background: #1a222b;
-  box-shadow: #004265 0px 0px 10px 10px;
+  box-shadow: #5FC9F3  0px 0px 10px 10px;
   border-radius: 15px;
   width: 450px;
   overflow: hidden;
@@ -540,7 +540,7 @@ h1 {
 }
 
 .item-produto img {
-  border-bottom: #04d939 5px solid;
+  border-bottom: #1F4287 5px solid;
   width: 100%;
   height: 450px;
 }
@@ -603,7 +603,7 @@ h1 {
 
 .item-novidades {
   background: #1a222b;
-  box-shadow: #004265 0px 0px 10px 10px;
+  box-shadow: #5FC9F3 0px 0px 10px 10px;
   border-radius: 15px;
   width: 650px;
   height: 550px;
@@ -613,7 +613,7 @@ h1 {
 }
 
 .item-novidades img {
-  border-bottom: #04d939 5px solid;
+  border-bottom: #1F4287 5px solid;
   width: 100%;
   height: 450px;
 }
