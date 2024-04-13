@@ -7,7 +7,7 @@
   <meta name="viewport" content="height=device-height, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/styles/index.css">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/image/favicon-32x32.png">
-  <script src="https://kit.fontawesome.com/6302ea1cad.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/196c5b28f0.js" crossorigin="anonymous"></script>
   <title>TechSprint Solutions</title>
 </head>
 

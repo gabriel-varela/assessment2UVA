@@ -7,7 +7,7 @@
   <meta name="viewport" content="height=device-height, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/styles/index.css">
   <link rel="icon" type="image/png" sizes="32x32" href="../assets/image/favicon-32x32.png">
-  <script src="https://kit.fontawesome.com/6302ea1cad.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/196c5b28f0.js" crossorigin="anonymous"></script>
   <title>TechSprint Solutions</title>
 </head>
 
@@ -51,6 +51,7 @@
         <img src="../assets/scripts/imageprodutos.php?id=' . $produto['id_prod'] . '" alt="">
         <h2>' . $produto['nome'] . '</h2>
         <div class="info">
+        <p>' . $produto['descricao'] . '</p>
         <h3>R$ ' . $produto['valor'] . '</h3>
         <h3>Licenças disponíveis: ' . $produto['qtdestoque'] . '</h3>
         </div>
