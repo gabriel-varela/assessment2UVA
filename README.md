@@ -39,7 +39,7 @@ Website empresarial para a matéria de Desenvolvimento de Aplicações Web na UV
 
 ## Direitos Autorais e Licença
 
-Este projeto é protegido por direitos autorais de Eduardo Fernandes [https://github.com/dev-Dudu21], Gabriel Albuquerque , Luiz Felipe Passroni [https://github.com/luizpassaroni] e Arthur Luis. Você tem permissão para visualizar e modificar o código para fins de aprendizado e uso pessoal. Para qualquer outro uso, entre em contato com o autor.
+Este projeto é protegido por direitos autorais de Eduardo Fernandes [https://github.com/dev-Dudu21], Gabriel Albuquerque [https://github.com/gabriel-varela], Luiz Felipe Passroni [https://github.com/luizpassaroni] e Arthur Luis. Você tem permissão para visualizar e modificar o código para fins de aprendizado e uso pessoal. Para qualquer outro uso, entre em contato com o autor.
 
 Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
 
