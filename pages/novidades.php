@@ -51,7 +51,7 @@
           echo ("<div class='item-novidades'>
           <img src='../assets/scripts/imagenovidades.php?id=" . $novidade['id_nov'] . "' alt=''>
            <div>
-              <h2>" . $novidade['resumo'] . "</h2>
+              <h2>" . $novidade['resumo'] . "</h2>Sty
                 <p>" . $novidade['descricao'] . "</p>
             </div>
         </div>");

@@ -694,6 +694,7 @@ textarea {
   text-decoration: none;
   color: #fff;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   transition: 0.3s;
 }
