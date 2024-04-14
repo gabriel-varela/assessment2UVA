@@ -52,9 +52,11 @@
         <h2>' . $produto['nome'] . '</h2>
         <div class="info">
         <p>' . $produto['descricao'] . '</p>
-        <h3>R$ ' . $produto['valor'] . '</h3>
-        <h3>Licenças disponíveis: ' . $produto['qtdestoque'] . '</h3>
-        </div>
+        <div class="detalhes">
+        <h3 class="preco">R$ ' . number_format($produto['valor'], 2, ',', '.') . '</h3>
+      <p>Licenças disponíveis: ' . $produto['qtdestoque'] . '</p>
+      </div>
+      </div>
       </div>');
       $conexao->close();
       ?>
